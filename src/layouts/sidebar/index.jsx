@@ -110,25 +110,25 @@ const Sidebar = () => {
           <ul className="whitespace-pre px-2.5 text-[0.9rem] py-5 flex flex-col gap-1  font-medium overflow-x-hidden scrollbar-thin scrollbar-track-white scrollbar-thumb-slate-100   md:h-[68%] h-[70%]">
             <li>
               <NavLink to={"/"} className="link">
-                <AiOutlineAppstore size={23} className="min-w-max" />
+                {/* <AiOutlineAppstore size={23} className="min-w-max" /> */}
                 All Apps
               </NavLink>
             </li>
             <li>
               <NavLink to={"/authentication"} className="link">
-                <BsPerson size={23} className="min-w-max" />
+                {/* <BsPerson size={23} className="min-w-max" /> */}
                 Authentication
               </NavLink>
             </li>
             <li>
               <NavLink to={"/stroage"} className="link">
-                <HiOutlineDatabase size={23} className="min-w-max" />
+                {/* <HiOutlineDatabase size={23} className="min-w-max" /> */}
                 Stroage
               </NavLink>
             </li>
             <li>
               <NavLink to={"/settings"} className="link">
-                <SlSettings size={23} className="min-w-max" />
+                {/* <SlSettings size={23} className="min-w-max" /> */}
                 Settings
               </NavLink>
             </li>
